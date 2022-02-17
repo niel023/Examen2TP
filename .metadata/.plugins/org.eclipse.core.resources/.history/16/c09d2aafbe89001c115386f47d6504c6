@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nombre;
+		int menu=0;
+		int i=0;
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("1-Tarea 1");
+		System.out.println("1-Tarea 2");
+		System.out.println("1-Tarea 3");
+		System.out.println("1-Tarea 4");
+		menu=sc.nextInt();
+		
+		if(menu==1)
+		{
+			System.out.println("¿Cual es tu nombre?");
+			nombre=sc.nextLine();
+			System.out.println();
+			System.out.println();
+			while(i<10){
+				System.out.println(nombre);
+				
+			}
+			
+			
+		}
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

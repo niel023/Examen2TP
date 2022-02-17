@@ -1,0 +1,61 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nombre;
+		int menu=0;
+		int i=0;
+		
+		int num2=0;
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("1-Tarea 1");
+		System.out.println("2-Tarea 2");
+		System.out.println("3-Tarea 3");
+		System.out.println("4-Tarea 4");
+		menu=sc.nextInt();
+		
+		if(menu==1)
+		{
+			System.out.println("¿Cual es tu nombre?");
+			nombre=sc.nextLine();
+			
+			for (i = 0; i < 10; ++i) {
+				System.out.println(nombre);
+			}
+		
+		
+					
+		}
+		if(menu==2)
+		{
+			while(num2>-1)
+			{
+				System.out.println("Escribe un numero");
+				num2=sc.nextInt();
+				
+			};
+			System.out.println("Has escrito un numero negativo");
+			
+			
+		}
+		if (menu==3) {
+			
+			
+		}
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
