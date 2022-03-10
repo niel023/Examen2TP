@@ -27,7 +27,7 @@ public class Main {
 		}while(a!=0);
 
 		System.out.println("La suma de todos los números es de "+suma);
-		System.out.println("Este cambio está hecho desde git);
+		System.out.println("Este cambio está hecho desde git....);
 
 
 
